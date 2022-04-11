@@ -18,11 +18,20 @@
 				max-height: 200px;
 				margin: 2px;
 			}
+
+			.dropzone_main {
+				height: 400;
+				border: 1px dotted red;
+			}
 		</style>
 	</head>
 	<body>
 		<div id="app"></div>
 		<input id="image" type="file" value="submit" multiple />
+
+		<div class="dropzone_main" dropzone="link">
+			<p>Drop files over here</p>
+		</div>
 	</body>
 	<script src="main.js"></script>
 </html>
